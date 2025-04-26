@@ -9,12 +9,12 @@ export const Header = () => {
                 <p>MEDIA</p>
                 <ul>
                     <li><Link to={'/'}>Movies</Link></li>
-                    <li><Link to={'/'}>TV Shows</Link></li>
-                    <li><Link to={'/'}>Music</Link></li>
-                    <li><Link to={'/'}>Audiobooks</Link></li>
-                    <li><Link to={'/'}>Games</Link></li>
-                    <li><Link to={'/'}>Apps</Link></li>
-                    <li><Link to={'/'}>Updates</Link></li>
+                    <li><Link to={'#'}>TV Shows</Link></li>
+                    <li><Link to={'#'}>Music</Link></li>
+                    <li><Link to={'#'}>Audiobooks</Link></li>
+                    <li><Link to={'#'}>Games</Link></li>
+                    <li><Link to={'#'}>Apps</Link></li>
+                    <li><Link to={'#'}>Updates</Link></li>
                 </ul>
             </div>
         </div>
