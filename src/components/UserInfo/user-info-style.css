@@ -1,0 +1,47 @@
+.user-info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #333;
+}
+
+.decoration-element {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 7px;
+    margin-bottom: 20px;
+}
+
+.decoration-element span {
+    width: 15px;
+    height: 15px;
+    background-color: #00BFFF;
+    border-radius: 50%;
+}
+
+.user-info-text {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px;
+}
+
+.user-info-text img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    margin-bottom: 8px;
+}
+
+.user-info-text h3 {
+    color: white;
+    font-size: 16px;
+    margin: 0;
+}

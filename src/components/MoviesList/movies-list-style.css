@@ -1,0 +1,50 @@
+.MoviesList {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(200px, 1fr)); /* Гибкий грид */
+    gap: 20px;
+    padding: 20px;
+}
+
+.filters-bar {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+}
+
+
+.dropdown-danger-toggle {
+    background-color: transparent;
+    border: 2px solid #00bfff;
+    color: #00bfff;
+    padding: 8px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.dropdown-danger-toggle:hover {
+    background-color: #00bfff;
+    color: #fff;
+}
+
+
+.search-input {
+    flex: 1;
+    padding: 10px 16px;
+    border: 2px solid #00bfff;
+    border-radius: 8px;
+    background-color: #1a1a2e;
+    color: #fff;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.search-input::placeholder {
+    color: #aaa;
+}
+
+.search-input:focus {
+    border-color: #00e6e6;
+}

@@ -1,0 +1,24 @@
+.movie-info {
+    padding: 10px 0;
+}
+
+.overview {
+    font-size: 14px;
+    color: #ccc;
+    margin-bottom: 10px;
+}
+
+.new-badge {
+    color: #21d07a;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.genres-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 10px;
+    overflow-wrap: break-word;
+}

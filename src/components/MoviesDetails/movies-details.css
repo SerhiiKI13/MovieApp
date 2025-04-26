@@ -1,0 +1,115 @@
+.movies-details-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #0b1e2d;
+    color: #ffffff;
+}
+
+.header-block {
+    width: 250px;
+    background-color: #1c1c1c;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+}
+
+
+.movie-details-container {
+    margin-left: 280px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 20px;
+}
+
+.details-layout {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: flex-start;
+    margin-bottom: 30px;
+}
+
+
+.poster-block img {
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease;
+}
+
+.poster-block img:hover {
+    transform: scale(1.05);
+}
+
+
+.info-block {
+    flex: 1;
+    min-width: 300px;
+}
+
+.info-block h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.info-block p {
+    font-size: 16px;
+    margin: 6px 0;
+    line-height: 1.5;
+}
+
+
+.genres-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 15px 0;
+}
+
+
+.trailer-block {
+    margin-top: 30px;
+    text-align: center;
+    animation: fadeIn 0.8s ease forwards;
+    opacity: 0;
+}
+
+.trailer-block h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #00bfff;
+}
+
+
+.trailer-block iframe {
+    width: 100%;
+    max-width: 720px;
+    height: 400px;
+    border-radius: 12px;
+    border: none;
+}
+
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+
+.error-message {
+    text-align: center;
+    color: #ff4c4c;
+    font-size: 24px;
+    margin-top: 50px;
+}

@@ -1,0 +1,14 @@
+.genre-badge {
+    display: inline-block;
+    background-color: #00BFFF;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    white-space: nowrap;
+    transition: background-color 0.3s ease;
+}
+
+.genre-badge:hover {
+    background-color: #0077b6;
+}
