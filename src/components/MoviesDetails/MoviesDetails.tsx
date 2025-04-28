@@ -18,7 +18,7 @@ export const MoviesDetails = () => {
             dispatch(getMoviesById(id));
             dispatch(getMoviesVideosById(+id))
         }
-    }, []);
+    }, [id]);
     return (
         <div className="movies-details-wrapper">
             <div className="header-block">
